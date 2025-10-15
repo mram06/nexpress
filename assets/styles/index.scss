@@ -1,0 +1,36 @@
+@use "./nullstyle.scss";
+
+@use "./base";
+@use "./components";
+@use "./fonts";
+
+body {
+  font-family: "Roboto";
+  line-height: 120%;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex: 1 1 auto;
+  background-color: #f8f8f8;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+h1,
+h2 {
+  color: rgb(17, 17, 17);
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+}
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 32px;
+}
